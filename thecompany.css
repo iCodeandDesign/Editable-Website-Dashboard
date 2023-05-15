@@ -1,0 +1,278 @@
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+.nav_main{
+
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    background-color: #222;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Montserrat,'Helvetica Neue';
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+li{
+    display: inline;
+    padding-left: 30px;
+}
+
+li:hover{
+
+    text-shadow: 1px 5px 1px darkseagreen;
+    font-size: 15px;
+}
+
+.footer_main{
+
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: -2350px;
+    background-color: #222;
+    color: whitesmoke;
+
+
+}
+
+#p1{
+    float: left;
+    text-transform: uppercase;
+    font-family: Montserrat,'Helvetica Neue';
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+    top: 25%;
+
+}
+
+.icons{
+
+    background-color: grey;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 25%;
+    left: 20%;
+    display: inline-flex;
+}
+
+.icons:hover{
+
+    background-color: darkseagreen;
+    transform: scale(1.2);
+}
+
+.links_footer{
+
+    text-transform: uppercase;
+    font-family: Montserrat,'Helvetica Neue';
+    font-weight: 400;
+    color: #fff;
+    margin-right: 20px;
+    position: relative;
+    top: 25%;
+}
+
+.links_footer:hover{
+
+    color: darkgreen;
+    text-decoration: underline;
+}
+
+.footer_par{
+
+    float: right;
+    margin-right: 75px;
+    margin-top: 1.5%;
+}
+
+
+header {
+text-align: center;
+color: #fff;
+background-image: url(https://unsplash.imgix.net/uploads%2F14115408840644deb16b0%2F2dc933e3?q=75&fm=jpg&auto=format&s=7f43646e4d26049c6c39890afb2e5ced);
+background-position: center center;
+background-repeat: none;
+background-size: cover;
+height: 650px;
+margin-bottom: 150px;
+}
+
+.container1{
+
+position: absolute;
+top: 29%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+header .intro-text {
+padding-top: 100px;
+padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+margin-bottom: 25px;
+font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 22px;
+font-style: italic;
+line-height: 22px;
+}
+
+header .intro-text .intro-heading {
+padding-top: 5px;
+text-transform: uppercase;
+font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 50px;
+font-weight: 700;
+line-height: 50px;
+}
+
+.explaination{
+
+background-color: #dcdcdc;
+width: 100%;
+height: 450px;
+}
+
+.phar{
+
+margin-top: 950px;
+
+}
+
+.exp-phar{
+
+margin-top: 5px;
+text-transform: uppercase;
+font-family: "sans-serif",Arial,sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 50px;
+margin-top: 25px;
+}
+
+.col-md-4{
+
+height: fit-content;
+}
+
+.exp{
+
+margin-top: 5px;
+text-transform: uppercase;
+font-family: "sans-serif",Arial,sans-serif;
+font-size: 15px;
+font-weight: 200;
+line-height: 20px;
+
+}
+.tlt-exp{
+
+text-align: center;
+
+}
+
+.tlt-found{
+
+margin-top: 5px;
+text-transform: uppercase;
+font-family: "sans-serif",Arial,sans-serif;
+font-size: 15px;
+font-weight: 200;
+line-height: 20px;
+
+}
+
+.exp-found{
+
+margin-top: 5px;
+font-family: "sans-serif",Arial,sans-serif;
+font-size: 15px;
+font-weight: 200;
+line-height: 20px;
+color: grey;
+}
+
+.img{
+
+border-radius: 4px;
+width: 400px;
+height: 440px;
+}
+
+#col2{
+
+margin-top: 125px;
+
+}
+
+#col3{
+
+margin-top: 250px;
+}
+
+.roadmap-main{
+
+width: 1000px;
+position: absolute;
+top: 170%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+#roadmap{
+
+text-transform: uppercase;
+font-family: "Roboto",Arial,sans-serif;
+text-shadow: 1px 5px 1px darkseagreen;
+font-size: 45px;
+transform: rotate(26deg);
+position: relative;
+left: 45%;
+top: -25px;
+width: fit-content;
+}
+
+#founders{
+
+text-transform: uppercase;
+font-family: "Roboto",Arial,sans-serif;
+text-shadow: 1px 5px 1px darkseagreen;
+font-size: 45px;
+transform: rotate(26deg);
+position: relative;
+left: 45%;
+top: 800px;
+width: fit-content;
+}
+
+.roadmap{
+
+width: 350px;
+}
+
+.r-second{
+
+float: right;
+}
+
+.r-third{
+
+position: relative;
+top: 250px;
+}
